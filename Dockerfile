@@ -1,4 +1,3 @@
-Dockerfile
 FROM amazoncorretto:25-alpine AS build
 WORKDIR /app
 RUN apk add --no-cache maven
